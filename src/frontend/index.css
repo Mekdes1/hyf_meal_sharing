@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+#mainBody {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display : flex;
+  justify-content: space-around;
+
+
+}
+#logo {
+  width:120;
+  margin-right: 25px;
+  margin-top:15px;
+ 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sub {
+  color: white;
+  margin: 15px;;
+}
+
+
+#mealsUl {
+  color: white;
+  list-style-type: none;
+  margin: 15px;
+  padding:10px;
+  font-size: 30px;
+  color: white;
+  font-weight: 300px;
+  background-color: rgb(57, 57, 58);
+  opacity: 0.8;
+}
+
+#yourMeal,#allMeal {
+  color:white;
+
+}
+
+form,#meal_form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(62, 197, 62);
+  height: 520px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+ 
+
+}
+
+#meal_form {
+  height: 240px;
+  
+
+}
+
+input {
+  margin: 5px;
+  height: 150;
+  width:  250px;
+}
+
+#create_reservation {
+  margin: 25px;
+  background-color: green;
+  color: aliceblue;
+  border-radius: 15px;
+  height: 70px;
+  width: 300px;
+  
+}
+
+
+li a {
+  display: block;
+  width: 60px;
+  font-size :25;
+  color: white;
+  margin: 24px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+#front {
+  font-size: 60px;
+  margin-left: 400px;
+  margin-top: 150px;;
+  color: rgb(196, 255, 209);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
