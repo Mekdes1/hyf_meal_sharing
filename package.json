@@ -1,7 +1,7 @@
 {
   "name": "meals-sharing",
   "version": "1.0.0",
-  "description": "meals sharing Website",
+  "description": "meal sharing Website",
   "engines": {
     "node": "8.11.1"
   },
