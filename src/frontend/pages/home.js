@@ -16,7 +16,6 @@ window.handleHomeRequest = () => {
 <li> <a href="home" data-navigo> Home </a> </li>
   <li> <a href="meals" data-navigo >Meals</a>  </li>
 </ul>
-<img src="http://www.ranklogos.com/wp-content/uploads/2012/09/Circle-Of-Food-Logo.jpg" alt="logo"  id= "logo">
 </header>
 <div id= "front">
 <h1> Lets Eat </h1>
